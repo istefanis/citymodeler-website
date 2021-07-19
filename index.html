@@ -1,0 +1,372 @@
+<!-- 
+   Copyright 2021 Ioannis Stefanis
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+   
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/utilities.css">
+    <!-- we place this after the utilities.css, in case any style needs to be overridden -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>CityModeler: Next-gen urban transport modeling software</title>
+</head>
+<body id="home">
+    <!-- Header -->
+    <header class="page-header">
+        <div class="navbar">
+            <div class="max-width-container">
+                <a href="#home">
+                    <h1 class="logo">
+                        <span class="text-primary"><i class="fas fa-random"></i></span><span class="text-secondary"> City</span>Modeler
+                    </h1>
+                </a>
+                <nav>
+                    <ul>
+                        <!-- these links lead to sections of the page with the respective ids (ex. <body> has: id="home") -->
+                        <li><a href="#latest">v2021.7</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#use-cases">Use cases</a></li>
+                        <li><a href="#buy-or-test">Buy</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- "hero" is a term used to describe a banner/promo section at a webpage top -->
+        <div class="hero">
+            <video autoplay muted loop class="video">
+                <source src="videos/hero.mp4" type="video/mp4">
+            </video>
+            <div class="content max-width-container">
+                <h1>Next-gen urban transport modeling software</h1>
+                <p>Trusted by 100+ urban commuting research teams and public authorities worldwide</p>
+                <div class="buttons">
+                    <a href="#features" class="btn btn-outline-secondary">Learn more</a>            
+                    <a href="#buy-or-test" class="btn btn-outline-secondary">Download free trial</a>          
+                </div>
+                <p><i class="fas fa-tag"></i> &euro;599/year (individuals), &euro;499/year (3+ licences)</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Latest section -->
+        <a class="anchor" id="latest"></a>
+        <section class="latest bg-light">
+            <div class="max-width-container">
+                <header class="section-header">
+                    <h4>July 5, 2021</h4>
+                    <h2>Version 2021.7 out now</h2>
+                </header>
+                <div class="flex-wrap center">
+                    <div class="padding-1">
+                        <div class="icons">
+                            <i class="fas fa-square-root-alt fa-2x"></i>
+                        </div>
+                        <div>
+                            <h3>Upgraded CM solver engine</h3>
+                            <p>The biggest upgrade to CityModeler's solver engine in 2 years, resulting in 15-25% faster workloads for medium and large complexity models.</p>
+                            <a href="#" class="a-primary">Read more<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="padding-1">
+                        <div class="icons">
+                            <i class="fas fa-walking fa-2x"></i>
+                            <i class="fas fa-bicycle fa-2x"></i>
+                            <i class="fas fa-car fa-2x"></i>
+                            <i class="fas fa-bus fa-2x"></i>    
+                            <i class="fas fa-subway fa-2x"></i>
+                            <i class="fas fa-tram fa-2x"></i>
+                            <i class="fas fa-train fa-2x"></i>    
+                        </div>
+                        <div>
+                            <h3>Full support for mixed-mode commuting modeling</h3>
+                            <p>The design and simulation of intermodal passenger models, is now supported for up to 10 million commuters (pedestrial, bicycle, car, bus, subway, tram & train transport included).</p>
+                            <a href="#" class="a-primary">Read more<i class="fas fa-chevron-right"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <!-- Features section -->
+        <a class="anchor" id="features"></a>
+        <section class="features">
+            <div class="max-width-container">
+                <section id="feature1" class="flex-wrap">
+                    <div class="column">
+                        <img src="/images/features/feature1.jpg" alt="">
+                    </div>
+                    <div class="column">
+                        <div class="flex-column-left padding-2 bg-dark">
+                            <h2>Features</h2>
+                            <h3>Unique modeling capabities for real-life scenarios</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugiat, accusantium blanditiis porro consectetur dolore, mollitia voluptatem sit facilis, ea ipsam asperiores voluptatum officiis. Provident excepturi asperiores et iste hic?</p>
+                            <a href="#" class="a-secondary">Read more<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div> 
+                </section>
+                <section id="feature2" class="flex-wrap flex-reverse">
+                    <div class="column">
+                        <img src="/images/features/feature2.jpg" alt="">
+                    </div>
+                    <div class="column">
+                        <div class="flex-column-left padding-2 bg-dark">
+                            <h3>Designed to incorporate the latest research</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugiat, accusantium blanditiis porro consectetur dolore, mollitia voluptatem sit facilis, ea ipsam asperiores voluptatum officiis. Provident excepturi asperiores et iste hic?</p>
+                            <a href="#" class="a-secondary">Read more<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </section>
+                <section id="feature3" class="flex-wrap">
+                    <div class="column">
+                        <img src="/images/features/feature3.jpg" alt="">
+                    </div>
+                    <div class="column">
+                        <div class="flex-column-left padding-2 bg-dark">
+                            <h3>Robust & extensible</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugiat, accusantium blanditiis porro consectetur dolore, mollitia voluptatem sit facilis, ea ipsam asperiores voluptatum officiis. Provident excepturi asperiores et iste hic?</p>
+                            <a href="#" class="a-secondary">Read more<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- Use cases section -->
+        <a class="anchor" id="use-cases"></a>
+        <section class="use-cases">
+            <div class="max-width-container">
+                <header class="section-header">
+                    <h2>Use cases</h2>
+                    <h4>60+ cities in 4 continents &nbsp;|&nbsp; 350+ commisioned projects using CityModeler</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus commodi itaque a dolor reiciendis iusto dolores debitis ab aspernatur nesciunt! Obcaecati et culpa earum totam error, atque iure reprehenderit perspiciatis sapiente dicta assumenda corporis asperiores neque repellat aperiam reiciendis blanditiis?</p>
+                </header>
+                <div class="width-100 section-padding">
+                    <div class="flex-wrap">
+                        <div class="column width-25">
+                            <img src="/images/use-cases/case1.jpg" alt="">
+                            <div class="case-legend">
+                                <h3>Sydney (metropolitan)</h3>
+                                <ul>
+                                    <li>1.5 million commuters</li>
+                                    <li>6 modes of transport</li>
+                                </ul>
+                            </div>
+                            <div class="map">
+                                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=151.15299224853518%2C-33.899771777255694%2C151.28448486328125%2C-33.8159515518711&amp;layer=mapnik"></iframe>
+                            </div>
+                        </div>
+                        <div class="column width-25">
+                            <img src="/images/use-cases/case2.jpg" alt="">
+                            <div class="case-legend">
+                                <h3>Stockholm</h3>
+                                <ul>
+                                    <li>0.5 million commuters</li>
+                                    <li>4 modes of transport</li>
+                                </ul>
+                            </div>
+                            <div class="map">
+                                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=17.939643859863285%2C59.27395068333551%2C18.202629089355472%2C59.37693872229776&amp;layer=mapnik"></iframe>
+                            </div>
+                        </div>
+                        <div class="column width-25">
+                            <img src="/images/use-cases/case3.jpg" alt="">
+                            <div class="case-legend">
+                                <h3>Seoul</h3>
+                                <ul>
+                                    <li>7 million commuters</li>
+                                    <li>6 modes of transport</li>
+                                </ul>
+                            </div>
+                            <div class="map">
+                                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=126.70875549316408%2C37.39307301476918%2C127.23472595214845%2C37.71315858834301&amp;layer=mapnik"></iframe>
+                            </div>
+                        </div>
+                        <div class="column width-25">
+                            <img src="/images/use-cases/case4.jpg" alt="">
+                            <div class="case-legend">
+                                <h3>Vancouver</h3>
+                                <ul>
+                                    <li>0.75 million commuters</li>
+                                    <li>5 modes of transport</li>
+                                </ul>
+                            </div>
+                            <div class="map">
+                                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-123.2494354248047%2C49.223203145468865%2C-122.98645019531251%2C49.35487388519263&amp;layer=mapnik"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Did you know? section -->
+        <section class="did-you-know">
+            <div class="max-width-container">
+                <div class="flex-wrap section-margin">
+                    <div class="column">
+                        <img src="/images/sustainability.jpg" alt="">
+                    </div>
+                    <div class="column">
+                        <div class="flex-column-left padding-2">
+                            <h2>Did you know?</h2>
+                            <h3><i class="fas fa-seedling fa-2x text-green"></i> Sustainability of transport networks becomes measurable using CityModeler</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sapiente placeat voluptas perspiciatis laudantium.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Support section -->
+        <a class="anchor" id="support"></a>
+        <section class="support section-margin">
+            <div class="max-width-container">
+                <div class="flex-wrap flex-reverse">
+                    <div class="column">
+                        <img src="/images/support.jpg" alt="">
+                    </div>
+                    <div class="column">
+                        <div class="flex-column-left padding-2 bg-secondary">
+                            <h2>Up to 24/7 support</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fugiat, accusantium blanditiis porro consectetur dolore, mollitia voluptatem sit facilis, ea ipsam asperiores voluptatum officiis. Provident excepturi asperiores et iste hic?</p>
+                            <a href="#" class="a-white">Read more<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Buy or test section -->
+        <a class="anchor" id="buy-or-test"></a>
+        <section class="buy-or-test bg-light">
+            <div class="max-width-container">
+                <div class="flex-wrap center">
+                    <div class="width-33">
+                        <img src="/images/buy-or-test.jpg" alt="">
+                    </div>
+                    <div class="flex-column-left width-33 padding-2 bg-light">
+                        <h2>Buy now</h2>
+                        <form class="buy-form" id="buy-form">
+                            <div class="licence">
+                                <input type="radio" name="licence" value="individual" id="individual" checked>
+                                <div class="licence-legend">
+                                    <h4>Individual licence</h4>
+                                    <h4><i class="fas fa-tag"></i> &euro;599/year</h4>
+                                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#">What's included</a></p>
+                                </div>    
+                            </div>
+                            <div class="licence">
+                                <input type="radio" name="licence" value="multiple" id="multiple">
+                                <div class="licence-legend">        
+                                    <h4>Multiple (3+) licences</h4>
+                                    <h4><i class="fas fa-tag"></i> &euro;499/year/licence</h4>
+                                    <p class="">Lorem ipsum dolor sit amet. <a href="#">What's included</a></p>
+                                    <div class="licence-quantity">
+                                        <p>Quantity: &nbsp;</p>
+                                        <input type="number" placeholder="4" min="4" max="50" id="age" name="age" class="width-25"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="licence support-plan">
+                                <input type="checkbox" name="support-plan" value="24-7" id="support">
+                                <div class="licence-legend">        
+                                    <p>Add <b>24/7 support plan</b> (&euro;49/year/licence). <a href="#">Read more</a></p>
+                                </div>
+                            </div>
+                            <div class="buttons checkout">
+                                <a href="#" class="btn btn-white">Proceed to checkout <i class="fas fa-chevron-right"></i></a>     
+                            </div>
+                        </form>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quod?</p>
+                    </div>
+                    <div class="flex-column-left width-33 padding-2 bg-light">
+                        <h2>or try for free</h2>
+                        <div class="buttons">
+                            <a href="#" class="btn btn-white"><i class="fas fa-download"></i> Download v2021.7 trial &nbsp;(30 days free)</a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem et voluptates soluta ut neque fugit. Quos beatae vitae nam temporibus</p>
+                        <p>Lorem ipsum magni sint dignissimos cumque aliquid ut libero praesentium harum!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer bg-dark">
+        <div class="max-width-container"> 
+            <section class="footer1">
+                <div class="footer-item">
+                </div>
+                <div class="footer-item">
+                    <h1 class="logo">
+                        <span class="text-primary"><i class="fas fa-random fa"></i></span><span class="text-secondary"></span>
+                    </h1>
+                </div>
+                <div class="footer-item">
+                    <h3>Product</h3>
+                    <a href="#">Features</i></a>
+                    <a href="#">Plans & pricing</i></a>
+                    <a href="#">Use cases</i></a>
+                    <a href="#">Research</i></a>
+                    <a href="#">Roadmap</i></a>
+                    <a href="#">Release notes</i></a>
+                </div>
+                <div class="footer-item">
+                    <h3>Support</h3>
+                    <a href="#">Documentation</i></a>
+                    <a href="#">Quick start guide</i></a>
+                    <a href="#">24/7 support</i></a>
+                    <a href="#">Training</i></a>
+                </div>
+                <div class="footer-item">
+                    <h3>Company</h3>
+                    <a href="#">About</i></a>
+                    <a href="#">Careers</i></a>
+                    <a href="#">News</i></a>
+                    <a href="#">Contact</i></a>
+                </div>
+                <div class="footer-item">
+                </div>
+            </section>
+            <section class="footer2">
+                    <div class="footer-social footer-item">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="footer-item">
+                        <p>&copy; 2019-2021 CityModeler Inc.</p>
+                    </div>
+                    <div class="footer-item">
+                        <a href="#">Terms & privacy</i></a>
+                        <p>/</p>
+                        <a href="#">Cookies</i></a>
+                        <p>/</p>
+                        <a href="#">Sitemap</i></a>
+                    </div>
+                </div>
+            </section>    
+        </div>
+    </footer>
+</body>
+</html>

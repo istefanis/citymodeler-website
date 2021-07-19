@@ -1,0 +1,8 @@
+citymodeler-website
+Copyright 2021 Ioannis Stefanis
+
+All images and videos used in the project were obtained from Pexels (https://www.pexels.com).
+
+The project drew some inspiration from the Udemy course: 
+'Modern HTML & CSS From The Beginning (Including Sass)', by Brad Traversy, accessed July 18, 2021 (https://www.udemy.com/course/modern-html-css-from-the-beginning/),
+and few bits of it may be implemented as demonstrated there.

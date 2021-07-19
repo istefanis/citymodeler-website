@@ -1,0 +1,219 @@
+/* 
+   Copyright 2021 Ioannis Stefanis
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
+
+/* Utility classes */
+
+/* Colors */
+:root {
+    --color-primary: #fc0909;
+    --color-secondary: #ffc400;
+    --color-secondary-light: #ffd23c;
+    --color-secondary-transparent: #ffc40020;
+    --color-dark: #222;
+    --color-grey-3: #333;
+    --color-grey-d: #ddd;
+    --color-light: #eee;
+    --color-green: #008800;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-secondary {
+    color: var(--color-secondary);
+}
+
+.text-green {
+    color: var(--color-green);
+}
+
+
+/* Buttons & backgrounds */
+.btn {
+    cursor: pointer;
+    padding: 10px 30px;
+    
+    border: none;
+    border-radius: 5px;
+
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn-secondary, .bg-secondary {
+    background-color: var(--color-secondary);
+    color: #fff;
+}
+
+.btn-dark, .bg-dark {
+    background-color: var(--color-dark);
+    color: #fff;
+}
+
+.btn-light, .bg-light {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+.btn-white, .bg-white {
+    background-color: #fff;
+    color: var(--color-dark);
+}
+
+.btn-outline-secondary {
+    background: var(--color-secondary-transparent);
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+}
+
+.btn-outline-secondary:hover {
+    background: var(--color-secondary);
+    color: #000;
+    opacity: 1;
+}
+
+
+/* Links */
+.a-primary {
+    color: var(--color-primary);
+}
+
+.a-secondary {
+    color: var(--color-secondary);
+}
+
+.a-white {
+    color: #fff;
+}
+
+.a-primary:hover, .a-secondary:hover, .a-white:hover {
+    text-decoration-line: underline;
+}
+
+
+/* Flex items */
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-reverse {
+    flex-direction: row-reverse;    
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.flex-column-left {
+    display: flex;
+    flex-direction: column;
+    /* direction changed here: */
+    align-items: flex-start;
+    justify-content: center;
+    /* required to center vertically: */
+    height: 100%;
+}
+
+.column {
+    flex: 1;
+}
+
+.padding-1 {
+    padding: 1rem;
+}
+
+.padding-2 {
+    padding: 2rem;
+}
+
+.width-25 {
+    flex: 1;
+    flex-basis: 25%;
+    max-width: 25%;
+}
+
+.width-33 {
+    flex: 1;
+    flex-basis: 100/3%;
+    max-width: 100/3%;
+}
+
+.width-100 {
+    flex: 1;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.flex-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-wrap h2, .section-header h2 {
+    font-size: 2.25rem;
+    font-weight: 100;
+}
+
+.flex-wrap h2 {
+    margin-bottom: 3rem;
+}
+
+.flex-wrap h4 {
+    margin-bottom: 10px;
+}
+
+.flex-wrap p {
+    margin: 20px 0;
+}
+
+
+/* Section header */
+.section-header {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-header h2 {
+    margin: 20px 0;
+}
+
+.section-header h4 {
+    margin: 5px 0;
+}
+
+
+/* Section padding & margin */
+.section-padding {
+    padding: 0px 20px 0px 20px;
+}
+
+.section-margin {
+    margin: 80px 0px 80px 0px;
+}

@@ -1,0 +1,218 @@
+/* 
+   Copyright 2021 Ioannis Stefanis
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
+
+/* Media queries/classes providing responsiveness */
+
+.max-width-container {
+    max-width: 1920px;
+    margin: auto;
+}
+
+
+/* Mobile screens */
+@media(max-width:1280px) {
+
+    .footer .footer2 {
+        height: 12rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .footer2 .footer-item {
+        flex: unset;
+    }
+
+    .latest .flex-wrap > div {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 1024px) {
+    
+    html {
+        font-size: 0.85rem;
+    }
+
+    a.anchor {
+        /* equal to .navbar height */
+        top: -7rem;
+    }
+
+    .navbar .max-width-container {
+        height: 7rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar a {
+        padding: 5px 12.5px;
+        margin: 0 2.5px;
+    }
+
+    .navbar ul {
+        padding: 0.5rem 0;
+    }
+
+    .hero .content h1 {
+        margin-top: 8rem;
+        font-size: 2.5rem;
+        padding: 0 0.5rem;
+    }
+    
+    .hero .content p {
+        max-width: 90%;
+    }
+
+    .hero .content .buttons a {
+        width: 14rem;
+    }
+
+    .flex-wrap .column {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .flex-wrap img {
+        max-height: 50vh;
+    }
+
+    /* 
+    #feature1 img, #feature2 img, #feature3 img {
+        border-radius: 0;
+    }
+    */
+
+    .flex-wrap .column .container {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .flex-wrap > div {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+
+    .use-cases .column {
+        flex-basis: 50%;
+        max-width: 50%;
+        padding-bottom: 4rem;
+    }
+    
+    .buy-or-test .flex-wrap > div:first-child {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .footer .footer1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1024px) and (orientation: portrait) {
+
+    .hero .content .buttons {
+        flex-direction: column;
+    }
+
+    .hero .content .buttons a:first-child {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 1024px) and (orientation: landscape) and (max-height: 512px) {
+
+    .hero .content h1 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 640px) {
+
+    .buy-or-test .flex-wrap > div {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 512px) {
+    
+    /* .flex-wrap {
+        flex-direction: column;
+    } */
+
+    .flex-wrap > div {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .use-cases .column {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 400px) {
+
+    .navbar .max-width-container {
+        height: 10rem;
+        line-height: 2.5rem;
+    }
+    
+    a.anchor {
+        top: -10rem;
+    }
+}
+
+@media(max-width: 256px) {
+
+    .navbar .max-width-container {
+        height: 16rem;
+        line-height: 2.5rem;
+    }
+    
+    a.anchor {
+        top: -16rem;
+    }
+}
+
+
+/* Widescreens */
+@media(min-width:1920px) {
+    html {
+        font-size: 1.25rem;
+    }
+
+    .hero .content p {
+        max-width: unset;
+    }
+}
+
+@media(min-width:2560px) {
+    html {
+        font-size: 1.5rem;
+    }
+}
+
+@media(min-width:3200px) {
+    html {
+        font-size: 1.75rem;
+    }
+}
