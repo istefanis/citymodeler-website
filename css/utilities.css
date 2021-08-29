@@ -25,6 +25,7 @@
     --color-secondary-transparent: #ffc40020;
     --color-dark: #222;
     --color-grey-3: #333;
+    --color-grey-b: #bbb;
     --color-grey-d: #ddd;
     --color-light: #eee;
     --color-green: #008800;
@@ -105,8 +106,18 @@
     color: #fff;
 }
 
+.a-dark {
+    color: var(--color-dark);
+}
+
 .a-primary:hover, .a-secondary:hover, .a-white:hover {
     text-decoration-line: underline;
+}
+
+
+/* Icons */
+.icon-larger {
+    font-size: 1.5em;
 }
 
 
@@ -114,6 +125,11 @@
 .flex-wrap {
     display: flex;
     flex-wrap: wrap;
+}
+
+.flex-simple {
+    display: flex;
+    flex-direction: row;
 }
 
 .flex-reverse {

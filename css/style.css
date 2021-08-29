@@ -18,6 +18,7 @@
 /* Main style classes */
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap');
+@import url('components/comparison-bar.css');
 
 * {
     box-sizing: border-box;
@@ -235,6 +236,30 @@ main a i {
 .latest .flex-wrap > div {
     flex-basis: 50%;
     max-width: 50%;
+}
+
+.comparison-bars {
+    width: 75%;
+    max-width: 480px;
+    min-width: 240px;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+ 
+.comparison-bar:nth-child(1) .bar-line {
+    width: calc(var(--comparison-bar-reference-width) * 1.25);
+}
+.comparison-bar:nth-child(2) .bar-line {
+    width: calc(var(--comparison-bar-reference-width) * 1.15);
+}
+.comparison-bar:nth-child(3) .bar-line {
+    width: var(--comparison-bar-reference-width);
+    background-color: var(--color-grey-b);
+}
+
+.comparison-bar:nth-child(1),
+.comparison-bar:nth-child(2) {
+    margin-bottom: 1rem;
 }
 
 
