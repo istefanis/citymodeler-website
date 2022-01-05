@@ -1,5 +1,5 @@
 citymodeler-website
-Copyright 2021 Ioannis Stefanis
+Copyright 2021-2022 Ioannis Stefanis
 
 All images and videos used in the project were obtained from Pexels (https://www.pexels.com).
 
