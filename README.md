@@ -3,12 +3,14 @@ citymodeler-website
 
 A fully responsive HTML/CSS-only website front page example, for a hypothetical urban transport simulation software product. The implementation is based on the Flexbox CSS module.
 
-<br>
+The website is deployed [here](https://istefanis.github.io/citymodeler-website/).
 
-![front page](https://github.com/istefanis/citymodeler-website/blob/main/front-page.png)
+## Preview
 
-===================
+![front page](https://github.com/istefanis/citymodeler-website/blob/main/front-page.jpg)
 
-citymodeler-website (c) 2021 Ioannis Stefanis <iastefan@outlook.com>
+## License
+
+Copyright 2021-2022 Ioannis Stefanis <iastefan@outlook.com>
 
 Distributed under the Apache License, Version 2.0, which is included in the 'LICENCE' file.
